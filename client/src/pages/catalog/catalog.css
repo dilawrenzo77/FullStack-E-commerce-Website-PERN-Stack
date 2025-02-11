@@ -1,0 +1,47 @@
+.catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.searchInput {
+    width: 500px;
+    height: 40px;
+    border-radius: 2rem;
+    border: none;
+}
+.searchIcon{
+    color: white;
+    margin-right: 5px;
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+.productCategoryTitle{
+    text-align: center;
+    color: white;
+}
+.phones{
+    margin-top: 25px;
+}
+.laptops{
+    margin-top: 25px;
+}
+.accessories{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}

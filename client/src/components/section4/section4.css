@@ -1,0 +1,49 @@
+.section4Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border-radius: 3rem;
+    background-color: #ffffff57;
+    backdrop-filter: blur(10px);
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.content {
+    margin-bottom: 0.5rem;
+}
+.content p {
+    word-spacing: 0.3rem;
+    text-align: center;
+    font-size:x-large;
+    color: white;
+}
+.inputBox {
+    height: 2rem;
+    width: 20rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.603);
+}
+.subscribeBtn {
+    height: 2.2rem;
+    width: 5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #95d5b26e;
+    color: white;
+    backdrop-filter: blur(10px);
+    font-weight: 500;
+}
+.subscribeBtn:hover {
+background-color: rgba(0, 0, 0, 0.409);
+border: 2px solid rgba(255, 255, 255, 0.537);
+transition: .4s ease;
+font-size: medium;
+width: 8rem;
+height: 2.7rem;
+letter-spacing: 0.2rem;
+}

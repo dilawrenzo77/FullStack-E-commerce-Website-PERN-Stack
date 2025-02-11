@@ -1,0 +1,58 @@
+.card {
+    height: 300px;
+    width: 250px;
+    position: relative;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.500);
+    box-shadow:  3px 3px 5px rgba(255, 255, 255, 0.527);
+    border-radius: 1rem;
+}
+.productImg {
+    position: absolute;
+    top: 5px;
+    left: 23px;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.productImg:hover {
+    transform: scale(1.50);
+    transition: .5s ease-in-out;
+}
+.limitedMessage {
+    background-color: rgba(255, 255, 255, 0.734);
+    color:black;
+    height: 1rem;
+    width: max-content;
+    padding: 0.15rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    backdrop-filter: blur(10px);
+}
+.prod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 8px;
+}
+.productName {
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.700);
+}
+.productPrice {
+    font-size: large;
+    color: rgba(255, 255, 255, 0.700);
+}
+.cartIcon {
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    color: rgba(255, 255, 255, 0.895);
+}
+.cartIcon:hover {
+    color: rgba(155, 244, 173, 0.959);
+}

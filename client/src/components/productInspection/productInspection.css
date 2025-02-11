@@ -1,0 +1,83 @@
+.productInspectionTab {
+    width: 60%;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.productInspectionContent {
+    background-color: rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(10px);
+    padding-bottom: 10px;
+    border-radius: 3rem;
+    margin-bottom: 30px;
+}
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}
+.productContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 700px;
+    height: 250px;
+    padding: 0px 50px;
+}
+.img {
+    width: 300px;
+    height: 200px;
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+.btn {
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 7rem;
+    font-weight: bolder;
+}
+.subtractBtn {
+    margin-left: 300px;
+}
+.addBtn {
+    margin-left: 10px;
+}
+.content1 p {
+    color: white;
+    font-style: italic;
+}
+.productCount{
+    text-align: center;
+    width: 5rem;
+    color: white;
+    margin-left: 6px;
+}
+.checkoutBtn {
+    border: none;
+    border-radius: 2rem;
+    width: 5rem;
+    height: 1.6rem;
+    color: rgba(0, 0, 0, 0.800);
+}
+.checkoutBtn:hover {
+    background-color: rgba(170, 218, 243, 0.242);
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+    color: white;
+}
+.removeItemBtn {
+    border: none;
+    border-radius: 2rem;
+    margin-left: 5px;
+    width: 5rem;
+    height: 1.6rem;
+    color: rgba(0, 0, 0, 0.800);
+}
+.removeItemBtn:hover {
+    background-color: rgba(255, 2, 2, 0.242);
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+    color: white;
+}

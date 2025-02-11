@@ -1,0 +1,97 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: max-content;
+    border: none;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+.pricingTable {
+    border: 1px solid black;
+}
+.pricingTable tr{
+    border: 1px solid black;
+}
+.pricingTable tr th{
+    border: 1px solid black;
+    width: 120px;
+}
+.pricingTable tbody tr td{
+    border: 1px solid black;
+    width: max-content;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+.priceSummary h3 {
+    text-align: center;
+}
+.checkOut {
+    color: rgba(255, 255, 255, 0.800);
+}
+.productSummary {
+    color: rgba(0, 0, 0, 0.800);
+}
+.checkOutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.confirmationBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 1.5rem 0rem;
+}
+.continueBtn {
+    height: 2rem;
+    width: 10rem;
+    background-color: rgb(255, 72, 0.400);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+}
+.continueBtn:hover {
+    background-color: rgba(215, 4, 4, 0.938);
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+.confirmBtn {
+    height: 2rem;
+    width: 10rem;
+    background-color: rgba(18, 113, 7, 0.815);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    padding: 0.5rem;
+}
+.confirmBtn:hover {
+    background-color: rgba(23, 184, 5, 0.87);
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+.clearCart {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2rem;
+    margin: 2rem 0rem;
+    height: 2rem;
+    width: 10rem;
+    font-weight: bolder;
+
+}
+.clearCart:hover {
+    transform: scale(1.05);
+    transition: .2s ease-in-out;
+}

@@ -1,0 +1,72 @@
+.section2Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+}
+.intro {
+    margin-bottom: 10px;
+}
+.block img{
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 2rem;
+    transition: transform .2s;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.block p{
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    z-index: 10;
+    color: white;
+    font-size: x-large;
+}
+.block:hover p {
+    font-size: xx-large;
+    transition: .3s ease;
+}
+.block:hover img{
+    transform: scale(1.03);
+}
+.block {
+    position: relative;
+}
+.discoverBtn {
+    background-color: #95d5b26e;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 30px;
+    width: 8rem;
+    height: 2.5rem;
+    backdrop-filter: blur(10px);
+    font-weight: 500;
+}
+.discoverBtn:hover {
+    background-color: rgba(0, 0, 0, 0.409);
+    border: 2px solid rgba(255, 255, 255, 0.537);
+    transition: .4s ease;
+    font-size: medium;
+    width: 9rem;
+    height: 2.7rem;
+    letter-spacing: 0.2rem;
+}
+.intro p{
+    text-align: center;
+    word-spacing: 0.2rem;
+    color: white;
+}
+.intro .introHeader{
+    text-align: center;
+    letter-spacing: 0.4rem;
+    word-spacing: 0.2rem;
+    color: white;
+}
