@@ -29,7 +29,7 @@
 .imgContent {
     width: 300px;
     height: 300px;
-    background-image: url("C:\Users\Godgive Computer LTD\Desktop\Web PortFolio\e-commerce1\client\flowteche-commerce\src\assets\other\My_Photo.jpg");
+    background-image: url("\src\assets\other\My_Photo.jpg");
     background-size: cover;
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;
