@@ -1,5 +1,5 @@
 body {
-    background-image: url("C:/Users/Godgive Computer LTD/Desktop/Web PortFolio/e-commerce1/client/flowteche-commerce/src/assets/other/tee3.jpg");
+    background-image: url("/src/assets/other/tee3.jpg");
     object-fit: cover;
     overflow: scroll;
     margin: 0;
